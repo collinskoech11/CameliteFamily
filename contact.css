@@ -52,7 +52,7 @@ textarea {
 
 form > input:focus,
 textarea:focus {
-  border: 1px solid rgb(111,78,55);
+  border: 1px solid rgb(93,67,44);
 }
 
 form > textarea {
@@ -70,7 +70,7 @@ form > label {
 form > button {
   padding: 20px;
   border: none;
-  background-color: rgb(111,78,55);
+  background-color: rgb(93,67,44);
   font-weight: 500;
   font-size: 20px;
   border-radius: 3px;
@@ -81,5 +81,31 @@ form > button {
 }
 
 form > button:hover {
-  background-color:rgb(111,78,55);
+  background-color: rgb(93,67,44);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
