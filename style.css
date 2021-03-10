@@ -74,6 +74,7 @@ header img{
     width:200px;
     box-sizing: border-box;
     margin: 20px;
+    cursor: pointer;
 }
 .footerlinks ul li{
     list-style-type: none;
