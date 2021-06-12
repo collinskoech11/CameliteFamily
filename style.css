@@ -22,14 +22,16 @@ ul li a{
 ul li a:hover{
   color:rgb(193,149,120);
 }
-  .headercontainer{
+.HeaderContainer{
   background-color: rgb(93,67,44);
 }
 .nav-item img{
   width:50px;
   max-height: 50px;
 }   
-
+.navbar-light{
+  background-color: rgb(93,67,44);
+} 
 
 
   /**Carousel section
