@@ -24,6 +24,10 @@ ul li a:hover{
 }
   .headercontainer{
   background-color: rgb(93,67,44);
+}
+.nav-item img{
+  width:50px;
+  max-height: 50px;
 }   
 
 
