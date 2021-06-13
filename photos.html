@@ -21,13 +21,14 @@
 </head>
 <body>
 
-    <section class="headercontainer">
-        <nav class="navbar navbar-expand-sm   ">
+    <section class="HeaderContainer ">
+      
+        <nav class="navbar navbar-expand-sm   navbar-light bg-light" style="background-color: rgb(93,67,44);">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03" >
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
@@ -38,8 +39,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Membership.html">MEMBERSHIP</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="R.html">RESOURCE MATERIALS</a>
+                    <li class="nav-item dropdown dmenu">
+                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        REFLECTIONS
+                        </a>
+                        <div class="dropdown-menu sm-menu">
+                            <a class="dropdown-item" href="daily.html">Daily Reflections</a>
+                            <a class="dropdown-item" href="morning.html">Morning devotions</a>
+                        </div>
                     </li>
                     <li class="nav-item dropdown dmenu">
                         <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
@@ -47,13 +54,19 @@
                         </a>
                         <div class="dropdown-menu sm-menu">
                             <a class="dropdown-item" href="workshops.html">Workshops and seminars</a>
-                            <a class="dropdown-item" href="photos.html">Retreats</a>
+                            <a class="dropdown-item" href="retreat.html">Retreats</a>
                             <a class="dropdown-item" href="photos.html">Photos and videos</a>
                             <a class="dropdown-item" href="music.html">Music</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Events.html">EVENTS</a>
+                    <li class="nav-item dropdown dmenu">
+                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        EVENTS
+                        </a>
+                        <div class="dropdown-menu sm-menu">
+                            <a class="dropdown-item" href="upcoming.html">Upcoming events</a>
+                            <a class="dropdown-item" href="local.html">Local events</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Contacts.html">CONTACT US</a>
@@ -67,9 +80,8 @@
                 </div>
             </div>
         </nav>
-            
-        <!-- Menu Icon -->
-    </section>
+<!-- Menu Icon -->
+</section>
     </div>
    
 
@@ -85,7 +97,7 @@
             <section class="card">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="img/ws.jpg" alt="" class="imgs">
+                        <img src="img/l.jpeg" alt="" class="imgs">
                     </div>
                     <div class="col-md-6">
                         <h3>PHOTOS AND VIDEOS</h3>
@@ -162,7 +174,7 @@
                 <h2>Products</h2>
                 <div class="content">
                     <div class="product1">
-                        <span class="text"><a href="#">Donate online</a></span>
+                        <span class="text"><a href="donate.html">Donate online</a></span>
                     </div>
                     <div class="product2">
                         <span class="text"><a href="#">Leave a legacy</a></span>

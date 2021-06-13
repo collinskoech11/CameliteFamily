@@ -12,18 +12,35 @@
   color: #fff;
 }
 
-ul li a{
+.nav-item ul li a{
   margin-right: 20px;
-  color: #fff; 
+  color: rgb(93,67,44); 
   text-decoration: none;
   list-style: none;
   
 }
+.white{
+  color: #fff;
+  background-color: #fff;
+  border: #fff;
+}
+@media screen and (min-width:600px){
+  .white{
+    display:none;
+  }
+}
+ul li a{
+  color:#fff;
+}
 ul li a:hover{
   color:rgb(193,149,120);
 }
-  .headercontainer{
+.HeaderContainer{
   background-color: rgb(93,67,44);
+}
+.nav-item img{
+  width:50px;
+  max-height: 50px;
 }   
 
 
@@ -88,6 +105,16 @@ ul li a:hover{
  .aboutus{
    background-color:rgb(192,192,192);
    background-color:rgb(93,67,44) ;
+ }
+ .about-btn{
+   padding: 10px;
+   border:none;
+   border-radius: 10px;
+   margin-bottom:40px;
+   color: rgb(111,78,55);
+ }
+ .about-btn a{
+   color:rgb(93,67,44);
  }
  .aboutus p{
    color:#fff;
