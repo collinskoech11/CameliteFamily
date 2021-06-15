@@ -21,106 +21,99 @@
 </head>
 <body>
 
-    <section class="headercontainer">
-        <nav class="navbar navbar-expand-sm   ">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<section class="HeaderContainer ">
+      
+        <nav class="navbar navbar-expand-sm  white" style="background-color: rgb(93,67,44,0.1);">
+            <button class=" white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon white"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03" >
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <img src="prayinghands.jpg">
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Aboutus.html">ABOUT US</a>
+                        <a class="nav-link" href="Aboutus.php">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Membership.html">MEMBERSHIP</a>
+                        <a class="nav-link" href="Membership.php">MEMBERSHIP</a>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         REFLECTIONS
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="workshops.html">Daily Reflections</a>
-                            <a class="dropdown-item" href="retreat.html">Morning devotions</a>
+                            <a class="dropdown-item" href="daily.php">Daily Reflections</a>
+                            <a class="dropdown-item" href="morning.php">Morning devotions</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         GALLERY
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="workshops.html">Workshops and seminars</a>
-                            <a class="dropdown-item" href="retreat.html">Retreats</a>
-                            <a class="dropdown-item" href="photos.html">Photos and videos</a>
-                            <a class="dropdown-item" href="music.html">Music</a>
+                            <a class="dropdown-item" href="workshops.php">Workshops and seminars</a>
+                            <a class="dropdown-item" href="retreat.php">Retreats</a>
+                            <a class="dropdown-item" href="photos.php">Photos and videos</a>
+                            <a class="dropdown-item" href="music.php">Music</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         EVENTS
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="upcoming.html">Upcoming events</a>
-                            <a class="dropdown-item" href="local.html">Local events</a>
+                            <a class="dropdown-item" href="upcoming.php">Upcoming events</a>
+                            <a class="dropdown-item" href="local.php">Local events</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Contacts.html">CONTACT US</a>
+                        <a class="nav-link" href="Contacts.php">CONTACT US</a>
                     </li>
 
                 </ul>
-                    <div class="social-part">
-                        <a href="facebook.html"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="facebook.html"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="facebook.html"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </div>
+                <div class="social-part">
+                    <a href="facebook.html"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="facebook.html"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="facebook.html"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
             </div>
         </nav>
-            
-        <!-- Menu Icon -->
-    </section>
-    </div>
+<!-- Menu Icon -->
+</section>
+   
 
 
-     
 
-    <section class="daily reflections">
+
+    <section class="workshops">
         <header class="main-header">
             <h1><span>Camelite</span> Family</h1>
-            <p>Our daily reflections.</p>
+            <p>Home of Prayer, Service and Fraternity.</p>
         </header> 
         <main class="container3">
             <section class="card">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="img/m.jpeg" alt="" class="imgs">
+                        <img src="img/n.jpeg" alt="" class="imgs">
                     </div>
                     <div class="col-md-6">
-                        
-                    </div>
-                </div>
-                
-            </section>
-            <section class="card">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="img/j.jpeg">
-                    </div>
-                    <div class="col-md-2">
-                        
+                        <h3>MUSIC</h3>
+                        <p>
+                          We have come up with songs and albums .<br/>
+                          Find below our albums and our songs
+                        </p>
+                        <a href="#" class="btns">VIEW</a>
                     </div>
                 </div>
                 
             </section>
         </main>
     </section>
-   
     
 
     
@@ -132,7 +125,7 @@
                     <h2>Camelite Family Kenya</h2>   
                 <div class="content">
                     <div class="product1">
-                        <span class="text"><a href="#">Books</a></span>
+                        <span class="text"><a href="donate.html">Books</a></span>
                     </div>
                     <div class="product2">
                         <span class="text"><a href="#">Policies</a></span>
@@ -167,7 +160,7 @@
                 <h2>Products</h2>
                 <div class="content">
                     <div class="product1">
-                        <span class="text"><a href="donate.html">Donate online</a></span>
+                        <span class="text"><a href="#">Donate online</a></span>
                     </div>
                     <div class="product2">
                         <span class="text"><a href="#">Leave a legacy</a></span>

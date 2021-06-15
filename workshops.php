@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camelite family kenya</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -20,11 +21,11 @@
 </head>
 <body>
 
-    <section class="HeaderContainer ">
+       <section class="HeaderContainer ">
       
-        <nav class="navbar navbar-expand-sm   navbar-light bg-light" style="background-color: rgb(93,67,44);">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-sm  white" style="background-color: rgb(93,67,44,0.1);">
+            <button class=" white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon white"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -33,45 +34,45 @@
                         <img src="prayinghands.jpg">
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Aboutus.html">ABOUT US</a>
+                        <a class="nav-link" href="Aboutus.php">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Membership.html">MEMBERSHIP</a>
+                        <a class="nav-link" href="Membership.php">MEMBERSHIP</a>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         REFLECTIONS
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="workshops.html">Daily Reflections</a>
-                            <a class="dropdown-item" href="retreat.html">Morning devotions</a>
+                            <a class="dropdown-item" href="daily.php">Daily Reflections</a>
+                            <a class="dropdown-item" href="morning.php">Morning devotions</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         GALLERY
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="workshops.html">Workshops and seminars</a>
-                            <a class="dropdown-item" href="retreat.html">Retreats</a>
-                            <a class="dropdown-item" href="photos.html">Photos and videos</a>
-                            <a class="dropdown-item" href="music.html">Music</a>
+                            <a class="dropdown-item" href="workshops.php">Workshops and seminars</a>
+                            <a class="dropdown-item" href="retreat.php">Retreats</a>
+                            <a class="dropdown-item" href="photos.php">Photos and videos</a>
+                            <a class="dropdown-item" href="music.php">Music</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         EVENTS
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="upcoming.html">Upcoming events</a>
-                            <a class="dropdown-item" href="local.html">Local events</a>
+                            <a class="dropdown-item" href="upcoming.php">Upcoming events</a>
+                            <a class="dropdown-item" href="local.php">Local events</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Contacts.html">CONTACT US</a>
+                        <a class="nav-link" href="Contacts.php">CONTACT US</a>
                     </li>
 
                 </ul>
@@ -85,41 +86,36 @@
 <!-- Menu Icon -->
 </section>
 
-
-
-
-
-
-    <!-- <div class="words">
-        <li>Advent</li>
-           <p>This is a season of the liturgical year observed here
-               as a time of expectant waiting and preparation for both the celebration
-                of the Nativity of Christ at Christmas and the return of Christ at the Second Coming</p>
-        <li>Lenten</li>
-           <p>
-            Lent is the period of 40 days which comes before Easter in the Christian calendar. Beginning 
-            on Ash Wednesday, Lent is a season of reflection and preparation before the celebrations of Easter. 
-            By observing the 40 days of Lent,
-             Christians replicate Jesus Christ's sacrifice and withdrawal into the desert for 40 days.
-           </p>
-        <li>recollection days</li>
-          <p>
-            These are  faithfuls  days to quietly reflect together on their spiritual journey. 
-            Penitents especially can reflect on a life of deeper penance  or conversion
-            It informs others about the existence of the Confraternity of Penitents.
-            
-          </p>
-        <li>Study week</li>
-        <li>Family day</li>
-        <p>
-            The Feast of the Holy Family is a liturgical celebration in the Catholic Church in honor 
-            of Jesus of Nazareth, his mother, the Blessed Virgin Mary, and his foster father, Saint Joseph, as a family.
-             The primary purpose of this feast is to present the Holy Family as a model for Christian families.
-        </p>
     
-    </p>
-    </div> -->
+ 
    
+
+
+
+
+    <section class="workshops">
+        <header class="main-header">
+            <h1><span>Camelite</span> Family</h1>
+            <p>Home of Prayer, Service and Fraternity.</p>
+        </header> 
+        <main class="container3">
+            <section class="card">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/0.jpeg" alt="" class="imgs">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>WORKSHOPS</h3>
+                        <p>
+                           We hold workshops and seminars frequently and sometimes annually.
+                           These functions help in  bringing together small groups for recurring
+                            meetings, focusing each time on some particular subject, in which everyone present is requested to participate. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </section>
     
 
     

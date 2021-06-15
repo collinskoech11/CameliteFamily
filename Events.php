@@ -20,7 +20,7 @@
 </head>
 <body>
 
-    <section class="HeaderContainer ">
+<section class="HeaderContainer ">
       
         <nav class="navbar navbar-expand-sm  white" style="background-color: rgb(93,67,44,0.1);">
             <button class=" white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,45 +33,45 @@
                         <img src="prayinghands.jpg">
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Aboutus.html">ABOUT US</a>
+                        <a class="nav-link" href="Aboutus.php">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Membership.html">MEMBERSHIP</a>
+                        <a class="nav-link" href="Membership.php">MEMBERSHIP</a>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         REFLECTIONS
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="daily.html">Daily Reflections</a>
-                            <a class="dropdown-item" href="morning.html">Morning devotions</a>
+                            <a class="dropdown-item" href="daily.php">Daily Reflections</a>
+                            <a class="dropdown-item" href="morning.php">Morning devotions</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         GALLERY
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="workshops.html">Workshops and seminars</a>
-                            <a class="dropdown-item" href="retreat.html">Retreats</a>
-                            <a class="dropdown-item" href="photos.html">Photos and videos</a>
-                            <a class="dropdown-item" href="music.html">Music</a>
+                            <a class="dropdown-item" href="workshops.php">Workshops and seminars</a>
+                            <a class="dropdown-item" href="retreat.php">Retreats</a>
+                            <a class="dropdown-item" href="photos.php">Photos and videos</a>
+                            <a class="dropdown-item" href="music.php">Music</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         EVENTS
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="upcoming.html">Upcoming events</a>
-                            <a class="dropdown-item" href="local.html">Local events</a>
+                            <a class="dropdown-item" href="upcoming.php">Upcoming events</a>
+                            <a class="dropdown-item" href="local.php">Local events</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Contacts.html">CONTACT US</a>
+                        <a class="nav-link" href="Contacts.php">CONTACT US</a>
                     </li>
 
                 </ul>
@@ -84,115 +84,40 @@
         </nav>
 <!-- Menu Icon -->
 </section>
-    <section class="FirstCon">                                          
-        <div class="carousel">
-            <div class="slides">
-                <img src="./img/w.jpeg" alt="slide image" class="slide">
-                <img src="./img/2.png" alt="slide image" class="slide">
-                <img src="./img/3.jpg" alt="slide image" class="slide">
-            </div>
-            <div class="controls">
-                <div class="control prev-slide">&#9668;</div>
-                <div class="control next-slide">&#9658;</div>
-            </div>
-        </div>
-    </section>
-
-    <section class="aboutus">
-        <div class="container1">
-            <div class="row">
-                <div class="col-md-4">
-                    <p>Who we are</p>
-                    <button class="about-btn"><a href="Aboutus.html">ABOUT US</a><i class="fa fa-arrow-right"></i></button>
-                </div>
-                <div class="col-md-8">
-                    <p>Camelite Family Kenya  focuses on managing retreats around the country and also
-                         holding various seminars and workshops from wherether they are countrywide.
-                         There are mainly two communities in kenya mostly designed for the Camelite family
-                         ministry which is LANG'ATA COMMUNITY and CARMEL CENTRE in Kiserian.
-                         These communities accomodate retreats, workshops and seminars.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="mid">
-        <h1 align="center">
-            <font face="Lato" color="brown" size="10">
-                Carmelite Family Kenya
-            </font>
-        </h1>
-        <h3 align="center">
-            <font face="Lato" color="#000" size="5">
-                Home of Prayer, Service and fraternity
-            </font>
-        </h3>
-
-        <div class="row">
-            <div class="col-md-4">
-                <h4>Find our books to read</h4>
-                <p>There are various motivational books and pamphlets 
-                    to read, download or purchase.
-                    Support the family by purchasing the books.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h4 id="text">Check ot our events</h4>
-                <p>We have various events monthly and annually.
-                    Check our calendar to find more about our events.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h4 id="text">Donate online</h4>
-                <p>You can donate physically or online to camelite
-                    family through various ways including sending books 
-                    or through our annual contributions.
-                    For more information  click here</p>
-            </div>
-        </div>
-    </section>
 
 
 
 
-    <section class="servicesSection">
-        <div class="service-header">
-            <h1>Gallery</h1>
-        </div>
-        <div class="container2">
-            <div class="row">
-                <div class="col-md-4" id="column">
-                    <p id="text">Workshops</p>
-                    <a href="workshops.html"> <img src="/img/1.jpg" alt=""></a>
-                </div>
-                <div class="col-md-4">
-                    <p id="text">Seminaries</p>
-                    <a href="local.html"> <img src="/img/1.jpg" alt=""></a>
-                </div>
-                <div class="col-md-4">
-                    <p id="text">Retreats</p>
-                    <a href="retreat.html"> <img src="/img/4.jpg" alt=""></a>
-                </div>
-            </div>
+    <!-- <div class="words">
+        <li>Advent</li>
+           <p>This is a season of the liturgical year observed here
+               as a time of expectant waiting and preparation for both the celebration
+                of the Nativity of Christ at Christmas and the return of Christ at the Second Coming</p>
+        <li>Lenten</li>
+           <p>
+            Lent is the period of 40 days which comes before Easter in the Christian calendar. Beginning 
+            on Ash Wednesday, Lent is a season of reflection and preparation before the celebrations of Easter. 
+            By observing the 40 days of Lent,
+             Christians replicate Jesus Christ's sacrifice and withdrawal into the desert for 40 days.
+           </p>
+        <li>recollection days</li>
+          <p>
+            These are  faithfuls  days to quietly reflect together on their spiritual journey. 
+            Penitents especially can reflect on a life of deeper penance  or conversion
+            It informs others about the existence of the Confraternity of Penitents.
+            
+          </p>
+        <li>Study week</li>
+        <li>Family day</li>
+        <p>
+            The Feast of the Holy Family is a liturgical celebration in the Catholic Church in honor 
+            of Jesus of Nazareth, his mother, the Blessed Virgin Mary, and his foster father, Saint Joseph, as a family.
+             The primary purpose of this feast is to present the Holy Family as a model for Christian families.
+        </p>
     
-            <div class="row">
-                <div class="col-md-4">
-                    <p id="text">Photos</p>
-                    <a href="photos.html"> <img src="/img/n.jpeg" alt=""></a>
-                    
-                </div>
-                <div class="col-md-4">
-                    <p id="text">Videos</p>
-                    <a href="photos.html"> <img src="/img/n.jpeg" alt=""></a>
-
-                </div>
-                <div class="col-md-4">
-                    <p id="text">Music </p>
-                    <a href="music.html"> <img src="/img/l.jpeg" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </section>
+    </p>
+    </div> -->
+   
     
 
     
@@ -254,7 +179,7 @@
     </footer>
 
 
-   <script src="./js/script.js"></script>
+   <script src="./img/js/script.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
