@@ -58,11 +58,11 @@
 
 <body>
 
-    <section class="HeaderContainer ">
+        <section class="HeaderContainer ">
       
-        <nav class="navbar navbar-expand-sm   navbar-light bg-light" style="background-color: rgb(93,67,44);">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-sm  white" style="background-color: rgb(93,67,44,0.1);">
+            <button class=" white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon white"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -71,45 +71,45 @@
                         <img src="prayinghands.jpg">
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Aboutus.html">ABOUT US</a>
+                        <a class="nav-link" href="Aboutus.php">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Membership.html">MEMBERSHIP</a>
+                        <a class="nav-link" href="Membership.php">MEMBERSHIP</a>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         REFLECTIONS
                         </a>
                         <div class="dropdown-menu sm-menu">
-                          <a class="dropdown-item" href="daily.html">Daily Reflections</a>
-                          <a class="dropdown-item" href="morning.html">Morning devotions</a>
+                            <a class="dropdown-item" href="daily.php">Daily Reflections</a>
+                            <a class="dropdown-item" href="morning.php">Morning devotions</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         GALLERY
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="workshops.html">Workshops and seminars</a>
-                            <a class="dropdown-item" href="retreat.html">Retreats</a>
-                            <a class="dropdown-item" href="photos.html">Photos and videos</a>
-                            <a class="dropdown-item" href="music.html">Music</a>
+                            <a class="dropdown-item" href="workshops.php">Workshops and seminars</a>
+                            <a class="dropdown-item" href="retreat.php">Retreats</a>
+                            <a class="dropdown-item" href="photos.php">Photos and videos</a>
+                            <a class="dropdown-item" href="music.php">Music</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         EVENTS
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="upcoming.html">Upcoming events</a>
-                            <a class="dropdown-item" href="local.html">Local events</a>
+                            <a class="dropdown-item" href="upcoming.php">Upcoming events</a>
+                            <a class="dropdown-item" href="local.php">Local events</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Contacts.html">CONTACT US</a>
+                        <a class="nav-link" href="Contacts.php">CONTACT US</a>
                     </li>
 
                 </ul>
@@ -145,7 +145,7 @@
                     Order of Carmelite (O.CARM) Family
                     Order of Carmelite family in the Church constitutes; Cloistered nuns, Congregation of sisters,
                     Lay missionary family, Secular Institute, communities of Hermits, Numerous groups of 
-                    Third Order Lay Members and Confraternities of the Scapular of Our Lady of Mt. Carmel.<br/>
+                    Third Order Lay Members and Confraternities of the Scapular of Our Lady of Mt. Carmel.
 
                     <h2>Charism of the Order</h2>
                     Charism is a gift from God to the Church for the world. The Charism of each religious family is the particular way in which its members are called to follow Christ. The charism of the Carmelites Order is God’s gift given originally to those nameless hermits who gathered on Mt, Carmel, beside the well of Elijah, at the end of the 12th and the beginning of the 13th centuries. Carmelite charism, first and most importantly, is a way of following Christ with total dedication. Carmelites do this by seeking to form contemplative communities at the service of God’s people in whose midst they live. Fraternity, service and contemplation are therefore essential values for all Carmelites.

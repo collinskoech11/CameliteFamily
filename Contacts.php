@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camelite family kenya</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -33,45 +34,45 @@
                         <img src="prayinghands.jpg">
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Aboutus.html">ABOUT US</a>
+                        <a class="nav-link" href="Aboutus.php">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Membership.html">MEMBERSHIP</a>
+                        <a class="nav-link" href="Membership.php">MEMBERSHIP</a>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         REFLECTIONS
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="daily.html">Daily Reflections</a>
-                            <a class="dropdown-item" href="morning.html">Morning devotions</a>
+                            <a class="dropdown-item" href="daily.php">Daily Reflections</a>
+                            <a class="dropdown-item" href="morning.php">Morning devotions</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         GALLERY
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="workshops.html">Workshops and seminars</a>
-                            <a class="dropdown-item" href="retreat.html">Retreats</a>
-                            <a class="dropdown-item" href="photos.html">Photos and videos</a>
-                            <a class="dropdown-item" href="music.html">Music</a>
+                            <a class="dropdown-item" href="workshops.php">Workshops and seminars</a>
+                            <a class="dropdown-item" href="retreat.php">Retreats</a>
+                            <a class="dropdown-item" href="photos.php">Photos and videos</a>
+                            <a class="dropdown-item" href="music.php">Music</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown dmenu">
-                        <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="Gallery.php" id="navbardrop" data-toggle="dropdown">
                         EVENTS
                         </a>
                         <div class="dropdown-menu sm-menu">
-                            <a class="dropdown-item" href="upcoming.html">Upcoming events</a>
-                            <a class="dropdown-item" href="local.html">Local events</a>
+                            <a class="dropdown-item" href="upcoming.php">Upcoming events</a>
+                            <a class="dropdown-item" href="local.php">Local events</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Contacts.html">CONTACT US</a>
+                        <a class="nav-link" href="Contacts.php">CONTACT US</a>
                     </li>
 
                 </ul>
@@ -84,118 +85,39 @@
         </nav>
 <!-- Menu Icon -->
 </section>
-    <section class="FirstCon">                                          
-        <div class="carousel">
-            <div class="slides">
-                <img src="./img/w.jpeg" alt="slide image" class="slide">
-                <img src="./img/2.png" alt="slide image" class="slide">
-                <img src="./img/3.jpg" alt="slide image" class="slide">
-            </div>
-            <div class="controls">
-                <div class="control prev-slide">&#9668;</div>
-                <div class="control next-slide">&#9658;</div>
-            </div>
-        </div>
-    </section>
+    </div>
 
-    <section class="aboutus">
-        <div class="container1">
-            <div class="row">
-                <div class="col-md-4">
-                    <p>Who we are</p>
-                    <button class="about-btn"><a href="Aboutus.html">ABOUT US</a><i class="fa fa-arrow-right"></i></button>
-                </div>
-                <div class="col-md-8">
-                    <p>Camelite Family Kenya  focuses on managing retreats around the country and also
-                         holding various seminars and workshops from wherether they are countrywide.
-                         There are mainly two communities in kenya mostly designed for the Camelite family
-                         ministry which is LANG'ATA COMMUNITY and CARMEL CENTRE in Kiserian.
-                         These communities accomodate retreats, workshops and seminars.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="mid">
-        <h1 align="center">
-            <font face="Lato" color="brown" size="10">
-                Carmelite Family Kenya
-            </font>
-        </h1>
-        <h3 align="center">
-            <font face="Lato" color="#000" size="5">
-                Home of Prayer, Service and fraternity
-            </font>
-        </h3>
-
-        <div class="row">
-            <div class="col-md-4">
-                <h4>Find our books to read</h4>
-                <p>There are various motivational books and pamphlets 
-                    to read, download or purchase.
-                    Support the family by purchasing the books.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h4 id="text">Check ot our events</h4>
-                <p>We have various events monthly and annually.
-                    Check our calendar to find more about our events.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h4 id="text">Donate online</h4>
-                <p>You can donate physically or online to camelite
-                    family through various ways including sending books 
-                    or through our annual contributions.
-                    For more information  click here</p>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <section class="servicesSection">
-        <div class="service-header">
-            <h1>Gallery</h1>
-        </div>
-        <div class="container2">
-            <div class="row">
-                <div class="col-md-4" id="column">
-                    <p id="text">Workshops</p>
-                    <a href="workshops.html"> <img src="/img/1.jpg" alt=""></a>
-                </div>
-                <div class="col-md-4">
-                    <p id="text">Seminaries</p>
-                    <a href="local.html"> <img src="/img/1.jpg" alt=""></a>
-                </div>
-                <div class="col-md-4">
-                    <p id="text">Retreats</p>
-                    <a href="retreat.html"> <img src="/img/4.jpg" alt=""></a>
-                </div>
-            </div>
+   
+    <contact>
+        <h1>Contacts</h1>
+            <p >
+                <font face="Lato" color="#" size="5">
+                    Address Email and related Links, Br. Dan willl ensure it's well done.  
+                </font>
+            </p>
+        </contact>
     
-            <div class="row">
-                <div class="col-md-4">
-                    <p id="text">Photos</p>
-                    <a href="photos.html"> <img src="/img/n.jpeg" alt=""></a>
-                    
-                </div>
-                <div class="col-md-4">
-                    <p id="text">Videos</p>
-                    <a href="photos.html"> <img src="/img/n.jpeg" alt=""></a>
-
-                </div>
-                <div class="col-md-4">
-                    <p id="text">Music </p>
-                    <a href="music.html"> <img src="/img/l.jpeg" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </section>
     
-
+        <!-- {/*contact page*/} -->
+    <div class="app">
+    <form action="contact.inc.php" method="POST">
+        <h2>Contact us...</h2>
     
+        <label for="name">Name</label>
+        <input type="text" placholder="name" name="name" required>
+    
+        <label>Email</label>
+        <input type="text" placholder="Email" name="email" required>
+    
+        <label>Message</label>
+        <textarea type="text" placeholder="Message" name="message"></textarea>
+    
+        <button type="submit" name="submit">Submit</button>
+    </form>
+    
+    </div>
+
+
 
     <section class="FooterSection">
         <footer>
@@ -254,7 +176,7 @@
     </footer>
 
 
-   <script src="./js/script.js"></script>
+   <script src="./img/js/script.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
