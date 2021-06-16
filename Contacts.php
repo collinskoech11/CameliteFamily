@@ -1,62 +1,3 @@
-<!----------PHP PART-------------------->
-    <?php
-
-    require_once "connect.php";
-
-        // Initialize the session
-        session_start();
-             
-      //INITIALIZING CONTACT FORM DATA
-      $name=" ";
-      $email=" ";
-      $message=" ";
-
-      //CREATING CONNECTION
-      $db = "contact";
-    $conn = new mysqli("localhost","root","", "contact");
-
-     // CHECKING CONNECTION
-    if ($conn->connect_error){
-        die("Connection failed: " . $conn->connect_error);
-    }
-    //CONVERTING HTML TO PHP
-    if(isset($_POST['submit'])){
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $message = $_POST['message'];
-    }
-
-    //ensuring that data is valid....error handling logic gate
-    if(empty($name)){
-        echo '<script>alert("A Name is required")</script>';
-    }
-    else if(empty($email)){
-        echo '<script>alert("Email is required")</script>';
-    }
-    else if(empty($message)){
-        echo '<script>alert("Message is required")</script>';
-    }
-
-    //If data is clean then we feed it to the DB
-    else{
-        $sql = "INSERT INTO user(name, email,message)
-                VALUES('$name','$email','$message')";
-    }
-
-    
-     //Feedback if data has been inserted
-    if(isset($_POST['submit'])){
-        if(mysqli_query($conn, $sql)){
-            echo '<script>alert("Your message has been submitted successfully.You will get a reply shortly")</script>';
-        }
-        else{
-            echo '<script>alert("Error: Information was not captured well. Try again!!")</script>';
-        }
-    }
-    ?>
-
-    
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -159,7 +100,7 @@
     
         <!-- {/*contact page*/} -->
     <div class="app">
-    <form action="Contacts.php" method="POST">
+    <form action="contact.inc.php" method="POST">
         <h2>Contact us...</h2>
     
         <label for="name">Name</label>
